@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM heroku/python
 
 RUN apt-get update && \
     apt-get install -y curl git wget screen ca-certificates libcurl4 libjansson4 libgomp1 sudo
